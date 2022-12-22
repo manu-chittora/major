@@ -1,0 +1,31 @@
+useSelector
+dispatch
+actions
+reducers
+slice
+
+mongodb+srv://manuchittora:<password>@cluster0.ainrn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+User-
+Sigin-
+Username
+Password
+Register-
+Name
+Address(Home Delivery Address)
+PhoneNumber(OTP)
+Username
+Password
+
+Owner
+Register-
+Name
+Shop-Username
+Phone Number(Whatsapp)
+Address(Shop)
+Password
+
+Signin-
+Shop-Username
+Password
+
+React Toastify

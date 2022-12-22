@@ -1,0 +1,145 @@
+#div1{
+    background-image: linear-gradient(#77c4f4, #e8f2f9);
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+}
+
+html{
+    width: 100%;
+}
+
+#h1{
+    margin: 5px;
+    margin-bottom: 5px;
+    font-family: 'Koulen', cursive;
+    padding-top: 10px;
+}
+
+#h2{
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 10px;
+}
+
+#img1{
+    margin-top: 30px;
+    height: 400px;
+    width: auto;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+#row1{
+    border-radius: 7px;
+    width: 500px;
+    margin: auto;
+}
+
+#div2{
+    margin-top: 10px;
+}
+
+#row2{
+    border-radius: 7px;
+    width: 1250px;
+    margin-top: 10px;
+}
+
+#row3{
+    margin-top: 20px;
+}
+
+#col1{
+    color: black;
+    font-size: x-large;
+    
+    background-color: rgb(211, 209, 223);
+    border-radius: 10px;
+}
+
+#col2{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(211, 209, 223);
+    border-radius: 10px;
+    
+}
+
+#div3{
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#div4{
+    background-image: linear-gradient(#e8f2f9, #77c4f4);
+    height: 100vh;
+    padding: 20px;
+}
+
+#div5{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+#img2{
+    width: 150px;
+    height: auto;
+}
+
+#p1{
+    font-weight: bold;
+    font-family: 'Koulen', cursive;
+}
+
+#p3{
+    font-family: 'Koulen', cursive;
+}
+
+#col3{
+    font-size: 20px;
+}
+
+#p2{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#button1{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+#button1:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+ }
+
+ #button2{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#button2:hover {
+    background-color: rgb(63, 226, 80);
+    color: white;
+ }

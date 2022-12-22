@@ -1,21 +1,23 @@
 import './App.css';
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
+import UserSignup from'./components/UserSignup';
+import UserLogin from'./components/UserLogin';
+import Profile from './components/Profile';
+
 function App() {
   return (
     <>
       <Router>
-      <div><Link to="/">Home</Link></div>
-      <div><Link to="/about">About</Link></div>
-      <div><Link to="/userlogin">Cusotmer Login</Link></div>
-      <div><Link to="/usersignup">Customer Signup</Link></div>
-      <div><Link to="/ownerlogin">Loging to Business Dashboard</Link></div>
-      <div><Link to="/ownersignup">Register Your Business</Link></div>
         <Switch>
-          <Route exact path="/about" component={About}/>
-          <Route exact path="/" component={Home}/>
+        <Route exact path="/usersignup" component={UserSignup}/>
+        <Route exact path="/userlogin" component={UserLogin}/>
+        <Route exact path="/about" component={About}/>
+        <Route exact path="/" component={Home}/>
+        <Route path={"/profile/:email"} component={Profile} />
+        <Redirect to="/"/>
         </Switch>
       </Router>
     </>

@@ -1,0 +1,47 @@
+
+
+.back{
+    background-color: antiquewhite;
+    height:100vh;
+}
+.row{
+    background-color: white;
+    border-radius: 15px;
+    width: 1210px;
+    margin-top: 40px;
+    margin-left: 10px;
+    box-shadow: 12px 12px 22px rgb(94, 93, 93);
+}
+
+.cotainer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1{
+    width: 200px;
+}
+
+#img2{
+    justify-content: center;
+    text-align: center;
+    height:300px;
+    width:300px
+}
+
+.button{
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+}
+
+.main-heading{
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color:rgb(107, 141, 183);
+    color: white;
+}

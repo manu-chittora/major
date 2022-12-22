@@ -1,0 +1,34 @@
+<form >
+                        <h1 className="main-heading">Register your Shop</h1>
+                        
+                   
+                        <label HTMLfor="name">Shop Name*</label>
+                        <p><input type="text" name="name" id="name" required  placeholder="Shop Name" autofocus/></p>
+                        <label HTMLfor="email">Email*</label>
+                        <p> <input type="email" name="email" id="email" required  placeholder="Email Address" autofocus/></p>
+                        <label HTMLfor="phone">Phone*</label>
+                        <p><input type="number" name="phone" id="phone" required maxlength="10" minlength="10"  placeholder="Phone Number"/></p>
+                        <label HTMLfor="password">Password*</label>
+                        <p><input type="text" name="password" id="password" required  placeholder="Password" autofocus/></p>
+                        <label HTMLfor="cpassword">Confirm Password*</label>
+                        <p><input type="text" name="cpassword" id="cpassword" required  placeholder="Confirm Password" autofocus/></p>
+                        <label HTMLfor="shopdescription">Shop Description</label>
+                        <p><input type="text" name="shopdescription" id="shopdescription" placeholder="Shop Description" autofocus/></p>
+                        <label HTMLfor="shopaddress">Shop Address</label>
+                        <p><input type="text" name="shopaddress" id="shopaddress" placeholder="Shop Address" autofocus/></p>
+                        <label HTMLfor="shopimage">Shop Image</label>
+                        <p><input type="text" name="shopimage" id="shopimage" placeholder="Shop Image" autofocus/></p>
+                    
+                   
+                        <p><input type="text" name="item1name" id="item1name" placeholder="Item 1 Name" autofocus/></p>
+                        <p><input type="text" name="item1image" id="item1image" placeholder="Item 1 Image" autofocus/></p>
+                        <p><input type="text" name="item1desc" id="item1desc" placeholder="Item 1 Description" autofocus/></p>
+                        <p><input type="text" name="item2name" id="item2name" placeholder="Item 2 Name" autofocus/></p>
+                        <p><input type="text" name="item2image" id="item2image" placeholder="Item 2 Image" autofocus/></p>
+                        <p><input type="text" name="item2desc" id="item2desc" placeholder="Item 2 Description" autofocus/></p>
+                        <p><input type="text" name="item3name" id="item3name" placeholder="Item 3 Name" autofocus/></p>
+                        <p><input type="text" name="item3image" id="item3image" placeholder="Item 3 Image" autofocus/></p>
+                        <p><input type="text" name="item3desc" id="item3desc" placeholder="Item 3 Description" autofocus/></p>
+                        <p><button className="button" >Register</button></p>
+                    
+                    </form>

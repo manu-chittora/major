@@ -1,0 +1,26 @@
+#row1{
+    width: 800px;
+    margin-top:-12px;
+    margin-left:15%;
+    justify-content: center;
+    align-items: center;
+}
+#img1{
+    border-radius: 15px;
+    width: 300px;
+    height:300px;
+}
+.class2{
+    width: 800px;
+    margin-left:15%;
+    justify-content: center;
+    align-items: center;
+}
+#row4{
+    width:300px;
+    align-items: flex-start;
+}
+#img2{
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,38 @@
+
+body{
+    background-color: antiquewhite;
+}
+#row1{
+    background-color: white;
+    border-radius: 15px;
+    width: 1230px;
+    margin-top: 20px;
+    /* margin-left: 25px; */
+    box-shadow: 12px 12px 22px rgb(94, 93, 93);
+}
+.cotainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    width: 600px;
+}
+#img{
+    justify-content: center;
+    text-align: center;
+}
+
+.button{
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+}
+.main-heading{
+    font-weight: bold;
+}
+.button:hover{
+    background-color:rgb(107, 141, 183);
+    color: white;
+}
